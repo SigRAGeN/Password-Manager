@@ -1,0 +1,26 @@
+# --- SECURITY (NEPOSÍLAT NA GIT!) ---
+# Soubory vytvořené aplikací, které obsahují tvá hesla a klíče
+secret.salt
+master.hash
+passwords.dat
+
+# --- BUILD & IDE (BALAST) ---
+# Maven složka s kompilovaným kódem a JARy
+target/
+
+# IntelliJ IDEA interní nastavení (aby ti to neukazovalo ty dvojité misc.xml atd.)
+.idea/
+*.iml
+out/
+
+# --- SYSTEM FILES ---
+# Skryté soubory operačních systémů
+.DS_Store
+Thumbs.db
+
+# --- MAVEN WRAPPERS ---
+# Tyto soubory tam nechat můžeš (jsou užitečné pro ostatní),
+# ale pokud bys je chtěl taky ignorovat, stačí je odkomentovat níže:
+# .mvn/
+# mvnw
+# mvnw.cmd
