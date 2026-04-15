@@ -14,6 +14,9 @@ A lightweight, secure, and local-first password management solution built as a p
 - **Maven** (Dependency management & Build automation)
 - **Java Cryptography Architecture (JCA)**
 
+## Usage Showcase
+![Showcase](./assets/demo.gif)
+
 ## How to Create a Desktop Shortcut
 To run the application as a standalone desktop app without opening an IDE:
 
