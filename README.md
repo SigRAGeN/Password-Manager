@@ -1,6 +1,6 @@
 # 🛡️ JavaFX Password Manager – Programming Sidequest
 
-A lightweight, secure, and local-first password management solution built as a programming sidequest to explore Java cryptography, secure data persistence, and GUI design with JavaFX.
+A lightweight, secure, and local-first password management solution built as a programming sidequest to explore Java cryptography, secure data persistence, and GUI design with JavaFX. Use at your own risk!
 
 ## Key Features
 - **Two-Scene Architecture:** Implements a strict separation between the Login (Authentication) and Main (Data Management) layers to prevent data exposure before successful authorization.
