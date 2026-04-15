@@ -21,7 +21,7 @@ A lightweight, secure, and local-first password management solution built as a p
 To run the application as a standalone desktop app without opening an IDE:
 
 1. **Build the JAR:** Run `mvn clean package` in your terminal or use the Maven tool window in IntelliJ (**Lifecycle -> package**).
-2. **Locate the Executable:** Go to the `/target` folder and find `PasswordManager-1.0-SNAPSHOT-shaded.jar`.
+2. **Locate the Executable:** Go to the `/target` folder and find `PasswordManager-1.0-SNAPSHOT.jar`.
 3. **Setup Folder:** Copy this JAR to a permanent folder (e.g., `C:/Apps/PasswordManager`).
 4. **Create Shortcut:** Right-click the JAR file -> **Send to -> Desktop (create shortcut)**.
 5. **Icon & Name:** Right-click the new desktop shortcut -> **Properties -> Change Icon** to customize its look, and rename it to "Password Manager".
