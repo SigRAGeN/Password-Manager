@@ -13,3 +13,14 @@ A lightweight, secure, and local-first password management solution built as a p
 - **JavaFX 21** (FXML, Scene Builder)
 - **Maven** (Dependency management & Build automation)
 - **Java Cryptography Architecture (JCA)**
+
+## How to Create a Desktop Shortcut
+To run the application as a standalone desktop app without opening an IDE:
+
+1. **Build the JAR:** Run `mvn clean package` in your terminal or use the Maven tool window in IntelliJ (**Lifecycle -> package**).
+2. **Locate the Executable:** Go to the `/target` folder and find `PasswordManager-1.0-SNAPSHOT-shaded.jar`.
+3. **Setup Folder:** Copy this JAR to a permanent folder (e.g., `C:/Apps/PasswordManager`).
+4. **Create Shortcut:** Right-click the JAR file -> **Send to -> Desktop (create shortcut)**.
+5. **Icon & Name:** Right-click the new desktop shortcut -> **Properties -> Change Icon** to customize its look, and rename it to "Password Manager".
+
+*Note: Make sure you have Java 21+ installed and associated with .jar files.*
